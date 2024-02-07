@@ -1,0 +1,134 @@
+.logo{
+    width: 170px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    background-color: white;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav .left {
+    display: flex;
+    align-items: center;
+}
+
+.nav .left img {
+    height: 30px;
+    margin-right: 20px;
+}
+
+.nav .left ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav .left li {
+    margin-right: 15px;
+    color: black;
+    cursor: pointer;
+}
+
+.nav .right ul.right {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: black;
+}
+
+.nav .right li {
+    margin-right: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.nav .right li i {
+    margin-left: 5px;
+}
+
+.main {
+    padding: 10px;
+}
+
+.ent {
+    width: 100%;
+    height: 450px; 
+    background-image: url('background.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    text-align: center;
+}
+
+.text {
+    margin-right: 1000px;
+    margin-bottom: 20px;
+    margin-left: 110px;
+}
+
+.text h1{    
+    text-align: justify;
+    line-height: 10px;
+}
+
+.text p{    
+    text-align: justify;
+}
+
+.text button{    
+    width: 50%;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 3px;
+    border: none;
+    padding: 13px;
+    background-color: rgb(54, 54, 251);
+}
+
+.text button {
+    margin-right: 250px;
+}
+
+.products {
+    margin-top: 20px;
+    padding: 10px;
+    display: inline-block;
+    align-items: center;
+}
+
+.list {
+    width: 23%;
+    text-align: justify;
+    padding: 10px;
+    display: inline-block;
+}
+
+.list img {
+    width: 90%;
+}
+
+.list p {
+    width: 90%;;
+}
